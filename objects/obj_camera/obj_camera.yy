@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "persistentObj",
-    "path": "folders/Objects/persistentObj.yy",
+    "name": "PersistentObj",
+    "path": "folders/Objects/PersistentObj.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_camera",

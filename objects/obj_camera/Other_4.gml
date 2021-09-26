@@ -1,6 +1,5 @@
 /// @description Camera Setup
 
-
 // Camera
 global.cameraX = 0;
 global.cameraY = 0;
@@ -36,3 +35,9 @@ surface_resize(application_surface, displayWidth, displayHeight);
 display_set_gui_size(global.cameraWidth, global.cameraHeight);
 
 alarm[0] = 1;
+
+// Id layer for parallax
+layerSpaceParallax01 = layer_get_id("Parallax_01");
+layerSpaceParallax02 = layer_get_id("Parallax_02");
+layerSpaceParallax03 = layer_get_id("Parallax_03");
+layerSpaceParallax04 = layer_get_id("Parallax_04");
