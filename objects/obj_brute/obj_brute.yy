@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_debris",
-    "path": "sprites/spr_debris/spr_debris.yy",
+    "name": "spr_enemy_brute_strip5",
+    "path": "sprites/spr_enemy_brute_strip5/spr_enemy_brute_strip5.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_par_ennemy",
+    "path": "objects/obj_par_ennemy/obj_par_ennemy.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -20,18 +23,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Neutrals",
-    "path": "folders/Objects/Neutrals.yy",
+    "name": "Ennemies",
+    "path": "folders/Objects/Ennemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_debris",
+  "name": "obj_brute",
   "tags": [],
   "resourceType": "GMObject",
 }

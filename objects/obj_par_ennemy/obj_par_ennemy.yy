@@ -1,13 +1,13 @@
 {
-  "spriteId": {
-    "name": "spr_debris",
-    "path": "sprites/spr_debris/spr_debris.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_faction_ennemy",
+    "path": "objects/obj_faction_ennemy/obj_faction_ennemy.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -20,18 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Neutrals",
-    "path": "folders/Objects/Neutrals.yy",
+    "name": "Parents",
+    "path": "folders/Objects/Ennemies/Parents.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_debris",
+  "name": "obj_par_ennemy",
   "tags": [],
   "resourceType": "GMObject",
 }
