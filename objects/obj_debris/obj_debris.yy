@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Neutrals",
+    "path": "folders/Objects/Neutrals.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_debris",

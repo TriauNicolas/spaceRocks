@@ -44,9 +44,7 @@ if((top + down + right + left) == 0) {
 
 	if(space && alarm[0] <= 0) { 
 		alarm[0] = room_speed / 10;
-		var	bullet = instance_create_layer(x, y, "Instances", obj_bullet);
-		bullet.direction = image_angle;
-		audio_play_sound(snd_zap, 1, false);
+		scr_create_bullet(image_angle, bulletSpd, faction);
 	}
 	 
 #endregion
