@@ -8,3 +8,5 @@ left = 0;
 
 // Properties
 bulletSpd = 6;
+guns = -1;
+invincible = false;
