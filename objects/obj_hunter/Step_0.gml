@@ -10,8 +10,6 @@ if(point_distance(x, y, obj_ship.x, obj_ship.y) < 250) {
 	image_angle = lerp(image_angle, new_angle, 0.1);
 	direction = image_angle
 	
-	show_debug_message(speed)
-	
 	if(point_distance(x, y, obj_ship.x, obj_ship.y) < 150) {
 		speed -= 0.05;
 		if(speed <= 0.5) {
