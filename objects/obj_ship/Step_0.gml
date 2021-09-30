@@ -44,7 +44,7 @@ if((top + down + right + left) == 0) {
 
 	if(space && alarm[0] <= 0) { 
 		alarm[0] = room_speed / 10;
-		scr_create_bullet(image_angle, bulletSpd, faction);
+		scr_create_bullet(image_angle, bulletSpd, faction, guns);
 	}
 	 
 #endregion
