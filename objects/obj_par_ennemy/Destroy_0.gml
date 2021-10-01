@@ -19,3 +19,7 @@ switch(object_index) {
 		score += 50;
 		break;
 }
+
+if(irandom_range(0, 2) == 0) {
+	instance_create_layer(x, y, "Instances", obj_powerup);	
+}

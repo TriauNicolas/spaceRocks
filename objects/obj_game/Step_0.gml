@@ -16,7 +16,7 @@ if(keyboard_check_pressed(vk_enter)) {
 
 // Switching room game for win or lose
 if(room == rm_game) {
-	if(score >= 1000) {
+	if(score >= 1500) {
 		room_goto(rm_win);
 		audio_play_sound(snd_win, 1, false);
 	}
