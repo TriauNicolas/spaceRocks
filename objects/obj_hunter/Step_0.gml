@@ -1,3 +1,5 @@
+event_inherited();
+
 // Check if play is inside range
 if(!instance_exists(obj_ship)) {
 	exit;	

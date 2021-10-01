@@ -2,9 +2,15 @@
 audio_play_sound(snd_die, 1, false);
 
 // Animation of destroying
-repeat(10) {
-	instance_create_layer(x, y, "Instances", obj_debris);	
+var xx = x;
+var yy = y;
+var ib = image_blend;
+
+with(obj_particles) {
+	part_particles_create_colour(partSys, xx, yy, partTypeShipDebris, ib, 10);	
 }
+
+global.cameraShake = 4;
 
 switch(object_index) {
 	case obj_raider: 

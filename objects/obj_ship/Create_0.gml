@@ -10,3 +10,5 @@ left = 0;
 bulletSpd = 6;
 guns = -1;
 invincible = false;
+
+exhaustCounter = 0;
