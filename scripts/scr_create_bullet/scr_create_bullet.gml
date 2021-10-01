@@ -85,7 +85,9 @@ function scr_create_bullet(){
 			break;
 			
 		case powerups.laser:
-		
+			audio_play_sound(snd_laser, 1, false);
+			var	bullet = instance_create_layer(x, y, "Instances", obj_laser);
+			scr_initialise_bullet(b_direction, b_speed, b_faction, bullet)
 			break;
 			
 		default:

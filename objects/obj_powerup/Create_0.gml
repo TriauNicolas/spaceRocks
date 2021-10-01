@@ -11,6 +11,3 @@ image_blend = c_lime;
 
 // No animation frame
 image_speed = 0;
-
-// Test
-image_index = powerups.star_bullets

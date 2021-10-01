@@ -14,7 +14,9 @@ function scr_initialise_bullet(){
 
 	with(bullet) {
 		direction = b_direction;
-		speed = b_speed;
+		if(object_index == obj_bullet) {
+			speed = b_speed;
+		}
 		faction = b_faction;
 		creator = b_creator;
 		
